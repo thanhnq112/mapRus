@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "maprus",
+    "name": "map Russia",
     "slug": "maprus",
+    "description": "LR1 Mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,11 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDwTKXIlzgBzJJ0ReRrZe40BmZ9Eu_vM70"
+        }
       }
     },
     "web": {
